@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<OutputType>Exe</OutputType>
+		<TargetFramework>net6.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<VersionPrefix>1.0.0.0</VersionPrefix>
+		<FileVersion>$(VersionPrefix)</FileVersion>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<ProjectReference
+			Include="..\Tokeiya3.Collections.Generics.RingBuffer.Tests\Tokeiya3.Collections.Generics.RingBuffer.Tests.csproj" />
+		<ProjectReference
+			Include="..\Tokeiya3.Collections.Generics.RingBuffer\Tokeiya3.Collections.Generics.RingBuffer.csproj" />
+	</ItemGroup>
+
+</Project>
