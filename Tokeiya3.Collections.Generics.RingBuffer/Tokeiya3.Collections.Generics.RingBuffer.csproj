@@ -7,6 +7,10 @@
       <VersionPrefix>0.1.0</VersionPrefix>
 	  <AssemblyVersion>$(VersionPrefix)</AssemblyVersion>
     <FileVersion>$(VersionPrefix)</FileVersion>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <PackageProjectUrl>https://github.com/Tokeiya/RingBuffer</PackageProjectUrl>
+    <Copyright>Tokeiya3</Copyright>
+    <PackageTags>Collecton;RingBuffer</PackageTags>
   </PropertyGroup>
 
 </Project>
